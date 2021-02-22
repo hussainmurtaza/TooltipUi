@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.apexcharts-tooltip {
+  background: #42403b !important;
+  color:white !important;
+}
+
+.main .icon-tri {
+  color:red !important;
+}
+
+.main .tre{
+  color: aqua !important;
+  font-size: 40px;
+}
+.main{
+  padding: 20px;
+}
+.main .icon-cir {
+  color:green !important;
+}
+.arrow-box .performance-title{
+  color: red !important;
+}

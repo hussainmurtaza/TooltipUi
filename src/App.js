@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Chart from "react-apexcharts"
+import GraphComponent from './Components/GraghComponent'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  
+
+  render() {
+    return (
+      <div className="app">
+        <GraphComponent graphData = { [45, 46, 47, 44, 43, 42, 47, 48] }/>
+      </div>
+    );
+  }
 }
 
 export default App;
